@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light only">
+<title>Ippo - 目標を毎日の一歩に — 大きな目標を、AIが毎日のタスクに。</title>
+<style>
+  :root {
+    --bg: #ffffff; --card: #ffffff; --text: #1d1d1f; --muted: #6e6e73; --line: #e5e5ea;
+    --accent: #0a84ff; --accent-soft: #e8f1ff; --th: #f2f2f7; --radius: 18px;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "SF Pro JP", "Hiragino Sans", "Noto Sans JP", sans-serif;
+         line-height: 1.85; font-size: 16px; -webkit-font-smoothing: antialiased; }
+  a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 48px 20px 64px; }
+  .hero { padding: 8px 4px 28px; }
+  .appicon { width: 72px; height: 72px; border-radius: 16px; display: block; margin: 0 0 14px; box-shadow: 0 2px 10px rgba(0,0,0,.12); }
+  .hero.center .appicon { width: 112px; height: 112px; border-radius: 26px; margin: 0 auto 16px; }
+  .badge { display: inline-block; font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--accent);
+           background: var(--accent-soft); border-radius: 999px; padding: 4px 12px; margin-bottom: 14px; }
+  h1 { font-size: clamp(28px, 5vw, 38px); line-height: 1.2; letter-spacing: -.02em; margin: 0 0 10px; font-weight: 700; }
+  .lead { color: var(--muted); margin: 0; font-size: 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 28px 28px 8px; }
+  section { padding: 8px 0 22px; } section + section { border-top: 1px solid var(--line); padding-top: 26px; }
+  h2 { font-size: 19px; margin: 0 0 12px; letter-spacing: -.01em; display: flex; align-items: baseline; gap: 12px; }
+  h2 .n { font-size: 12px; font-weight: 700; color: var(--accent); background: var(--accent-soft); border-radius: 8px; padding: 2px 8px; letter-spacing: .04em; }
+  p { margin: 0 0 12px; }
+  .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; margin: 6px 0 14px; }
+  table { border-collapse: collapse; width: 100%; font-size: 14.5px; min-width: 520px; }
+  th, td { padding: 11px 14px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+  th { background: var(--th); font-weight: 600; font-size: 12.5px; color: var(--muted); letter-spacing: .04em; }
+  tbody tr:last-child td { border-bottom: 0; }
+  ul.list { padding-left: 1.2em; margin: 0 0 12px; } ul.list li { margin: 4px 0; }
+  .note { background: var(--th); border-radius: 12px; padding: 14px 16px; white-space: pre-line; margin: 6px 0 14px; }
+  .meta { color: var(--muted); font-size: 14px; }
+  footer { margin-top: 28px; color: var(--muted); font-size: 13px; text-align: center; }
+  .hero.center { text-align: center; padding: 24px 4px 36px; }
+  .tagline { font-size: 20px; color: var(--muted); margin: 6px 0 22px; }
+  .store { display: inline-block; background: var(--text); color: var(--bg) !important; padding: 12px 22px; border-radius: 999px; font-weight: 600; }
+  .store:hover { text-decoration: none; opacity: .9; }
+  .description { white-space: pre-line; font-size: 17px; }
+  .features { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+  .features li { background: var(--th); border-radius: 14px; padding: 14px 16px; } .features strong { display: block; margin-bottom: 2px; }
+  .shots { display: flex; gap: 14px; overflow-x: auto; padding: 6px 0 10px; scroll-snap-type: x mandatory; }
+  .shots figure { margin: 0; flex: 0 0 220px; text-align: center; font-size: 13px; color: var(--muted); scroll-snap-align: start; }
+  .shots img { width: 220px; border-radius: 22px; border: 1px solid var(--line); display: block; }
+  nav.links { display: flex; flex-wrap: wrap; gap: 10px; }
+  nav.links a { border: 1px solid var(--line); border-radius: 999px; padding: 8px 16px; font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero center">
+  <img class="appicon" src="AppIcon.png" alt="Ippo - 目標を毎日の一歩に のアイコン">
+  <span class="badge">App</span>
+  <h1>Ippo - 目標を毎日の一歩に</h1>
+  <p class="tagline">大きな目標を、AIが毎日のタスクに。</p>
+  
+</header>
+
+<main class="card">
+<section>
+<p class="description">Ippo は、大きな目標を「今日の一歩」に分けて続けるためのアプリです。
+AIが日々のタスクを提案し、あなたの目標達成をサポートします。</p>
+</section>
+
+<section>
+<h2><span class="n">FEATURES</span>できること</h2>
+<ul class="features">
+<li><strong>AIが目標をタスクに分解</strong>大きな目標を入れると、AIが毎日やるべき小さなタスクを提案し、あなたの行動をサポートします。</li>
+<li><strong>データは端末に保存</strong>あなたの目標やタスクは、すべて利用中の端末の中にだけ安全に保存されます。</li>
+<li><strong>無料で手軽に利用開始</strong>アカウント登録や課金は不要です。アプリをダウンロードしたら、すぐに目標設定を始められます。</li>
+<li><strong>状況に応じてAIを使い分け</strong>対応する端末では、インターネットに接続していなくても端末内のAIが目標達成をサポートします。</li>
+</ul>
+</section>
+
+<section>
+<h2><span class="n">SCREENS</span>画面</h2>
+<div class="shots">
+<figure><img src="04_today.png" alt="今日の目標とタスクを確認できます"><figcaption>今日の目標とタスクを確認できます</figcaption></figure>
+<figure><img src="02_questions.png" alt="目標達成に向けた情報を入力できます"><figcaption>目標達成に向けた情報を入力できます</figcaption></figure>
+<figure><img src="03_plan.png" alt="目標に合わせた学習計画を提案します"><figcaption>目標に合わせた学習計画を提案します</figcaption></figure>
+</div>
+</section>
+
+<section>
+<h2><span class="n">LINKS</span>サポート・プライバシー</h2>
+<nav class="links"><a href="support.html">サポート（よくある質問・お問い合わせ）</a><a href="privacy.html">プライバシーポリシー</a></nav>
+</section>
+</main>
+
+<footer>© TickleCode LLC　更新日：2026年10月30日</footer>
+</div>
+</body>
+</html>

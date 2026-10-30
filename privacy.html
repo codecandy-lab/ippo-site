@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light only">
+<title>Ippo プライバシーポリシー</title>
+<style>
+  :root {
+    --bg: #ffffff; --card: #ffffff; --text: #1d1d1f; --muted: #6e6e73; --line: #e5e5ea;
+    --accent: #0a84ff; --accent-soft: #e8f1ff; --th: #f2f2f7; --radius: 18px;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "SF Pro JP", "Hiragino Sans", "Noto Sans JP", sans-serif;
+         line-height: 1.85; font-size: 16px; -webkit-font-smoothing: antialiased; }
+  a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 48px 20px 64px; }
+  .hero { padding: 8px 4px 28px; }
+  .badge { display: inline-block; font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--accent);
+           background: var(--accent-soft); border-radius: 999px; padding: 4px 12px; margin-bottom: 14px; }
+  h1 { font-size: clamp(28px, 5vw, 38px); line-height: 1.2; letter-spacing: -.02em; margin: 0 0 10px; font-weight: 700; }
+  .lead { color: var(--muted); margin: 0; font-size: 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 28px 28px 8px; }
+  section { padding: 8px 0 22px; } section + section { border-top: 1px solid var(--line); padding-top: 26px; }
+  h2 { font-size: 19px; margin: 0 0 12px; letter-spacing: -.01em; display: flex; align-items: baseline; gap: 12px; }
+  h2 .n { font-size: 12px; font-weight: 700; color: var(--accent); background: var(--accent-soft); border-radius: 8px; padding: 2px 8px; letter-spacing: .04em; }
+  p { margin: 0 0 12px; }
+  .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; margin: 6px 0 14px; }
+  table { border-collapse: collapse; width: 100%; font-size: 14.5px; min-width: 520px; }
+  th, td { padding: 11px 14px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+  th { background: var(--th); font-weight: 600; font-size: 12.5px; color: var(--muted); letter-spacing: .04em; }
+  tbody tr:last-child td { border-bottom: 0; }
+  ul.list { padding-left: 1.2em; margin: 0 0 12px; } ul.list li { margin: 4px 0; }
+  .note { background: var(--th); border-radius: 12px; padding: 14px 16px; white-space: pre-line; margin: 6px 0 14px; }
+  .meta { color: var(--muted); font-size: 14px; }
+  footer { margin-top: 28px; color: var(--muted); font-size: 13px; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <span class="badge">Ippo</span>
+  <h1>プライバシーポリシー</h1>
+  <p class="lead">TickleCode LLC（以下「開発者」）は、アプリ「Ippo」（以下「本アプリ」）で取り扱う情報について、次のとおり定めます。</p>
+</header>
+
+<main class="card">
+<section>
+<h2><span class="n">01</span>集める情報と使い道</h2>
+<div class="table-wrap">
+<table>
+<thead><tr><th>入っているもの</th><th>集めるもの</th><th>目的</th><th>行き先</th></tr></thead>
+<tbody>
+<tr><td>アプリのデータ（SwiftData）</td><td>アプリで入力した内容</td><td>アプリの機能</td><td>端末の中だけ</td></tr>
+<tr><td>Apple Intelligence（Foundation Models）</td><td>AI に渡す文</td><td>文の生成（アプリの機能）</td><td>端末の中だけ（対応端末のとき）</td></tr>
+<tr><td>Firebase AI Logic（Gemini）</td><td>AI に送る文</td><td>文の生成（アプリの機能）</td><td>Google</td></tr>
+<tr><td>Firebase Analytics</td><td>端末の種類・OS・使い方のイベント・アプリインスタンス ID</td><td>使われ方の計測</td><td>Google</td></tr>
+<tr><td>Firebase Remote Config</td><td>インストール ID</td><td>設定の配信</td><td>Google</td></tr>
+<tr><td>Firebase App Check</td><td>端末の正当性の証明（App Attest のトークン）</td><td>不正な利用の防止</td><td>Google・Apple</td></tr>
+</tbody>
+</table>
+</div>
+<p>本アプリは、次の情報を集めません：名前・メールアドレス・位置情報・連絡先。</p>
+</section>
+
+<section>
+<h2><span class="n">02</span>第三者への提供</h2>
+<p>本アプリは、上の表に書いた目的のために、次の提供元の仕組み（SDK）を使っています。各提供元は、それぞれのプライバシーポリシーに従って情報を取り扱います。開発者は、集めた情報を販売しません。</p>
+<ul class="list">
+<li>Google（Firebase・Gemini API） — <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+<li>Google（Firebase） — <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+</ul>
+</section>
+
+<section>
+<h2><span class="n">03</span>保持と削除</h2>
+<p>目標とタスクは端末の中にだけ保存され、アプリを削除すると消えます。Analytics のデータは Google の保持期間に従います。削除を希望するときは下の連絡先へ。</p>
+</section>
+
+<section>
+<h2><span class="n">04</span>お問い合わせ</h2>
+<p>本ポリシーに関するご質問や、情報の削除のご希望は、次の連絡先までお寄せください。</p>
+<p>TickleCode LLC：<a href="mailto:info@ticklecode.com">info@ticklecode.com</a></p>
+</section>
+
+<section>
+<h2><span class="n">05</span>改定</h2>
+<p>本ポリシーは、本アプリの機能や使う仕組みが変わったときに改定します。改定したときは、このページで公開し、改定日を更新します。</p>
+<p class="meta">改定日：2026年10月29日</p>
+</section>
+</main>
+
+<footer>© TickleCode LLC</footer>
+</div>
+</body>
+</html>
